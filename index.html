@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Андрей и Анастасия — Свадебное приглашение</title>
+  <style>
+    :root{
+      --accent:#f36b8a;
+      --accent-light:#f9c5d1;
+      --bg:#fff7f8;
+      --text:#3a3a3a;
+      --radius:14px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+    }
+    header{
+      text-align:center;
+      padding:40px 20px;
+      background:linear-gradient(135deg, var(--accent-light), white);
+    }
+    header h1{
+      font-family: 'Georgia', serif;
+      font-size:40px;
+      margin:0;
+      color:var(--accent);
+    }
+    header p{
+      margin:8px 0 0;
+      font-size:18px;
+    }
+    .container{
+      max-width:900px;
+      margin:0 auto;
+      padding:20px;
+    }
+    .info{
+      display:grid;
+      grid-template-columns: 1fr 300px;
+      gap:20px;
+      align-items:center;
+    }
+    .info img{
+      width:100%;
+      border-radius:var(--radius);
+      box-shadow:0 4px 20px rgba(0,0,0,0.1);
+    }
+    h2{
+      color:var(--accent);
+      margin-top:0;
+    }
+    .section{
+      background:white;
+      padding:20px;
+      margin-top:20px;
+      border-radius:var(--radius);
+      box-shadow:0 4px 12px rgba(0,0,0,0.05);
+    }
+    .btn{
+      display:inline-block;
+      background:var(--accent);
+      color:white;
+      padding:10px 16px;
+      border-radius:var(--radius);
+      text-decoration:none;
+      font-weight:bold;
+    }
+    footer{
+      text-align:center;
+      font-size:14px;
+      color:#777;
+      padding:20px;
+    }
+    @media (max-width:700px){
+      .info{
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Андрей & Анастасия</h1>
+  <p>30 мая 2026 • Суббота • 16:15</p>
+</header>
+
+<div class="container">
+
+  <div class="section info">
+    <div>
+      <h2>Место проведения</h2>
+      <p><strong>Дворец бракосочетания №2</strong><br>ул. Фурштадская, д. 52</p>
+      <p>Мы будем счастливы разделить с вами этот день!</p>
+    </div>
+    <img src="photo.jpg" alt="Андрей и Анастасия">
+  </div>
+
+  <div class="section">
+    <h2>RSVP</h2>
+    <p>Скоро здесь появится форма для подтверждения присутствия.</p>
+    <a href="#" class="btn">Написать нам</a>
+  </div>
+
+  <div class="section">
+    <h2>Подарки</h2>
+    <p>Ваши улыбки и присутствие — лучший подарок. Если вы хотите сделать что-то особенное, мы расскажем о наших пожеланиях лично.</p>
+  </div>
+
+</div>
+
+<footer>
+  © Андрей и Анастасия — 2026
+</footer>
+
+</body>
+</html>
